@@ -4,3 +4,4 @@ function gerarTabuada(numero) {
         console.log(`${numero} x ${i} = ${numero * i}`);
     }
 }
+gerarTabuada(7);
