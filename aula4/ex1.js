@@ -1,5 +1,5 @@
-const nome = "Luiz";
-const idade = 16;
-const cidade = "Cascavel";
+const cidades = ["Cascavel", "Curitiba", "Londrina", "Maringá"];
 
-console.log(`Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`);
+cidades.forEach(cidade => {
+    console.log("Cidade: " + cidade);
+});
