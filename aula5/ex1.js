@@ -1,5 +1,9 @@
-const nome = "Luiz";
-const idade = 16;
-const cidade = "Cascavel";
+const livro = {
+  titulo: "Dom Casmurro",
+  autor: "Machado de Assis",
+  paginas: 256
+};
 
-console.log(`Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`);
+console.log(livro.titulo);
+console.log(livro.autor);
+console.log(livro.paginas);
