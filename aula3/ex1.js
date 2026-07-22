@@ -1,5 +1,5 @@
-const nome = "Luiz";
-const idade = 16;
-const cidade = "Cascavel";
+const compras = ["arroz", "feijão", "macarrão", "leite", "açúcar"];
 
-console.log(`Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`);
+for (let i = 0; i < compras.length; i++) {
+    console.log(Item ${i + 1}: ${compras[i]});
+}
