@@ -1,5 +1,3 @@
-const nome = "Luiz";
-const idade = 16;
-const cidade = "Cascavel";
-
-console.log(`Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`);
+let celsius = 30;
+let fa = celsius * 1.8 + 32;
+console.log(`${celsius}°C ${fa.toFixed(1)}°F`);
